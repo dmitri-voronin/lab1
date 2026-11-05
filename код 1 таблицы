@@ -1,0 +1,9 @@
+CREATE TABLE authors (
+    author_code INT PRIMARY KEY,
+    surname VARCHAR(100) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    patronymic VARCHAR(100),
+    birth_date DATE,
+    nationality VARCHAR(50),
+    activity_type VARCHAR(100)
+);
